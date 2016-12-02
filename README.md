@@ -35,8 +35,6 @@ e.g.
 To run filebeat with full debug logs...
 
 ```
-./filebeat -e -d "*" -c filebeat.yml
-./filebeat -e -d "*" -c /etc/filebeat/filebeat.yml
 /usr/bin/filebeat -e -d "*" -c /etc/filebeat/filebeat.yml
 ```
 
