@@ -6,8 +6,9 @@ RUN 					apt-get update && \
     					apt-get clean && \
     					rm -rf /var/lib/apt/lists/*
 
-RUN 					curl -L -O https://download.elastic.co/beats/filebeat/filebeat_1.2.1_amd64.deb
-RUN 					dpkg -i filebeat_1.2.1_amd64.deb
+ARG           FILEBEAT_VERSION=1.2.1
+RUN 					curl -L -O https://download.elastic.co/beats/filebeat/filebeat_${FILEBEAT_VERSION}_amd64.deb
+RUN 					dpkg -i filebeat_${FILEBEAT_VERSION}_amd64.deb
 
 COPY 					filebeat.yml /etc/filebeat/filebeat.yml
 
