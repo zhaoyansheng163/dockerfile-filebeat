@@ -2,7 +2,7 @@
 
 ### Supported tags and respective Dockerfile links
 * 5.2, 5.2.1, latest ([5.2/Dockerfile](https://github.com/stakater/dockerfile-filebeat/blob/master/5.2/Dockerfile))
-* 1.2.1 ([1.2/Dockerfile](https://github.com/stakater/dockerfile-filebeat/blob/master/1.2/Dockerfile))
+* 1.2 ([1.2/Dockerfile](https://github.com/stakater/dockerfile-filebeat/blob/master/1.2/Dockerfile))
 
 Run the latest container with:
 
